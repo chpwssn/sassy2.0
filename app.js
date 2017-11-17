@@ -16,11 +16,6 @@ var connector = new builder.ChatConnector({
     appPassword: process.env.MICROSOFT_APP_PASSWORD
 });
 
-server.get(/.*/, restify.serveStatic({
-	'directory': '.',
-	'default': 'index.html'
-}));
-
 // Listen for messages from users 
 server.post('/api/messages', connector.listen());
 
