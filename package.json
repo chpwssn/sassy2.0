@@ -1,0 +1,16 @@
+{
+  "name": "teambot1",
+  "version": "1.0.0",
+  "description": "Chip's BotFramework Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chip Wasson <chip_wasson@wasson-ece.com>",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.12.0",
+    "giphy-js-sdk-core": "^1.0.2",
+    "restify": "^6.3.2"
+  }
+}

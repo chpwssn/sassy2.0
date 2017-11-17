@@ -1,0 +1,4 @@
+#!/bin/bash
+export GIPHY_API_KEY=
+
+node app.js
